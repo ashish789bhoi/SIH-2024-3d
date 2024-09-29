@@ -1,0 +1,113 @@
+/* Marquee Styling */
+.marquee-container {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1.75);
+  }
+
+  .hero-txt{
+    width: 50%;  
+    background-color: #323B40;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-txt-div{
+    width: 80%;
+  }
+
+  .hero-bg{
+    background: url('/images/backs.jpg') no-repeat center center/cover;
+    opacity: 0.85;
+    width: 50%;
+    height: 100%;
+  }
+
+  /* Features Section */
+  .features {
+    background-color: #f8f9fa;
+  }
+  
+  .feature-box {
+    margin: 20px 0;
+  }
+  
+  .feature-box i {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .feature-box h3 {
+    margin-top: 10px;
+  }
+  
+  /* form css */
+
+
+ /* .form-div{
+  padding: 0 10%;
+ } */
+  form {
+            width: 100%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="number"], input[type="file"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+/* Gallery CSS */
+
+.card{
+  margin: 0.5rem;
+}
+
+.card-img-top{
+  height: 20rem;
+}
+
+.gallery-div{
+  display: flex;
+}
